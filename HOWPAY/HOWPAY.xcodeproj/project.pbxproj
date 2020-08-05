@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253BE31D24D8FF56005FB8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE31C24D8FF56005FB8DE /* AppDelegate.swift */; };
+		253BE31F24D8FF56005FB8DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE31E24D8FF56005FB8DE /* SceneDelegate.swift */; };
+		253BE32124D8FF56005FB8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE32024D8FF56005FB8DE /* ViewController.swift */; };
+		253BE32424D8FF56005FB8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253BE32224D8FF56005FB8DE /* Main.storyboard */; };
+		253BE32724D8FF56005FB8DE /* HOWPAY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 253BE32524D8FF56005FB8DE /* HOWPAY.xcdatamodeld */; };
+		253BE32924D8FF59005FB8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253BE32824D8FF59005FB8DE /* Assets.xcassets */; };
+		253BE32C24D8FF59005FB8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253BE32A24D8FF59005FB8DE /* LaunchScreen.storyboard */; };
+		253BE33524D9045A005FB8DE /* paystore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253BE33324D9045A005FB8DE /* paystore.storyboard */; };
+		253BE33724D90485005FB8DE /* howToPay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253BE33624D90485005FB8DE /* howToPay.storyboard */; };
+		253BE33924D925FA005FB8DE /* howToPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE33824D925FA005FB8DE /* howToPayViewController.swift */; };
+		2584B3C824DA48EE0027AB66 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584B3C724DA48EE0027AB66 /* information.swift */; };
+		2584B3CA24DA4CBA0027AB66 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584B3C924DA4CBA0027AB66 /* InformationTableViewCell.swift */; };
+		2584B3CC24DA5CAC0027AB66 /* howToPayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584B3CB24DA5CAC0027AB66 /* howToPayTableViewController.swift */; };
+		2584B3D124DA82B80027AB66 /* payStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584B3D024DA82B80027AB66 /* payStoreViewController.swift */; };
+		2584B3D324DA8DB10027AB66 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2584B3D224DA8DB10027AB66 /* mapViewController.swift */; };
+		2584B3D624DA94CB0027AB66 /* howToUse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2584B3D424DA94CB0027AB66 /* howToUse.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		253BE31924D8FF56005FB8DE /* HOWPAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOWPAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		253BE31C24D8FF56005FB8DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		253BE31E24D8FF56005FB8DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		253BE32024D8FF56005FB8DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		253BE32324D8FF56005FB8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		253BE32624D8FF56005FB8DE /* HOWPAY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HOWPAY.xcdatamodel; sourceTree = "<group>"; };
+		253BE32824D8FF59005FB8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		253BE32B24D8FF59005FB8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		253BE32D24D8FF59005FB8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253BE33424D9045A005FB8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HOWPAY/Base.lproj/paystore.storyboard; sourceTree = "<group>"; };
+		253BE33624D90485005FB8DE /* howToPay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = howToPay.storyboard; sourceTree = "<group>"; };
+		253BE33824D925FA005FB8DE /* howToPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToPayViewController.swift; sourceTree = "<group>"; };
+		2584B3C724DA48EE0027AB66 /* information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
+		2584B3C924DA4CBA0027AB66 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		2584B3CB24DA5CAC0027AB66 /* howToPayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToPayTableViewController.swift; sourceTree = "<group>"; };
+		2584B3D024DA82B80027AB66 /* payStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payStoreViewController.swift; sourceTree = "<group>"; };
+		2584B3D224DA8DB10027AB66 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		2584B3D524DA94CB0027AB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HOWPAY/Base.lproj/howToUse.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253BE31624D8FF56005FB8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253BE31024D8FF56005FB8DE = {
+			isa = PBXGroup;
+			children = (
+				2584B3D424DA94CB0027AB66 /* howToUse.storyboard */,
+				253BE33624D90485005FB8DE /* howToPay.storyboard */,
+				253BE33324D9045A005FB8DE /* paystore.storyboard */,
+				253BE31B24D8FF56005FB8DE /* HOWPAY */,
+				253BE31A24D8FF56005FB8DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		253BE31A24D8FF56005FB8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253BE31924D8FF56005FB8DE /* HOWPAY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		253BE31B24D8FF56005FB8DE /* HOWPAY */ = {
+			isa = PBXGroup;
+			children = (
+				253BE31C24D8FF56005FB8DE /* AppDelegate.swift */,
+				253BE31E24D8FF56005FB8DE /* SceneDelegate.swift */,
+				253BE32024D8FF56005FB8DE /* ViewController.swift */,
+				253BE32224D8FF56005FB8DE /* Main.storyboard */,
+				253BE32824D8FF59005FB8DE /* Assets.xcassets */,
+				253BE32A24D8FF59005FB8DE /* LaunchScreen.storyboard */,
+				253BE32D24D8FF59005FB8DE /* Info.plist */,
+				253BE32524D8FF56005FB8DE /* HOWPAY.xcdatamodeld */,
+				253BE33824D925FA005FB8DE /* howToPayViewController.swift */,
+				2584B3C724DA48EE0027AB66 /* information.swift */,
+				2584B3C924DA4CBA0027AB66 /* InformationTableViewCell.swift */,
+				2584B3CB24DA5CAC0027AB66 /* howToPayTableViewController.swift */,
+				2584B3D024DA82B80027AB66 /* payStoreViewController.swift */,
+				2584B3D224DA8DB10027AB66 /* mapViewController.swift */,
+			);
+			path = HOWPAY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		253BE31824D8FF56005FB8DE /* HOWPAY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253BE33024D8FF59005FB8DE /* Build configuration list for PBXNativeTarget "HOWPAY" */;
+			buildPhases = (
+				253BE31524D8FF56005FB8DE /* Sources */,
+				253BE31624D8FF56005FB8DE /* Frameworks */,
+				253BE31724D8FF56005FB8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOWPAY;
+			productName = HOWPAY;
+			productReference = 253BE31924D8FF56005FB8DE /* HOWPAY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		253BE31124D8FF56005FB8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "廖昱晴";
+				TargetAttributes = {
+					253BE31824D8FF56005FB8DE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 253BE31424D8FF56005FB8DE /* Build configuration list for PBXProject "HOWPAY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 253BE31024D8FF56005FB8DE;
+			productRefGroup = 253BE31A24D8FF56005FB8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253BE31824D8FF56005FB8DE /* HOWPAY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		253BE31724D8FF56005FB8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2584B3D624DA94CB0027AB66 /* howToUse.storyboard in Resources */,
+				253BE32C24D8FF59005FB8DE /* LaunchScreen.storyboard in Resources */,
+				253BE33524D9045A005FB8DE /* paystore.storyboard in Resources */,
+				253BE33724D90485005FB8DE /* howToPay.storyboard in Resources */,
+				253BE32924D8FF59005FB8DE /* Assets.xcassets in Resources */,
+				253BE32424D8FF56005FB8DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253BE31524D8FF56005FB8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253BE32124D8FF56005FB8DE /* ViewController.swift in Sources */,
+				2584B3D324DA8DB10027AB66 /* mapViewController.swift in Sources */,
+				2584B3CC24DA5CAC0027AB66 /* howToPayTableViewController.swift in Sources */,
+				253BE33924D925FA005FB8DE /* howToPayViewController.swift in Sources */,
+				2584B3D124DA82B80027AB66 /* payStoreViewController.swift in Sources */,
+				253BE31D24D8FF56005FB8DE /* AppDelegate.swift in Sources */,
+				253BE31F24D8FF56005FB8DE /* SceneDelegate.swift in Sources */,
+				2584B3C824DA48EE0027AB66 /* information.swift in Sources */,
+				2584B3CA24DA4CBA0027AB66 /* InformationTableViewCell.swift in Sources */,
+				253BE32724D8FF56005FB8DE /* HOWPAY.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		253BE32224D8FF56005FB8DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253BE32324D8FF56005FB8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		253BE32A24D8FF59005FB8DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253BE32B24D8FF59005FB8DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		253BE33324D9045A005FB8DE /* paystore.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253BE33424D9045A005FB8DE /* Base */,
+			);
+			name = paystore.storyboard;
+			sourceTree = "<group>";
+		};
+		2584B3D424DA94CB0027AB66 /* howToUse.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2584B3D524DA94CB0027AB66 /* Base */,
+			);
+			name = howToUse.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		253BE32E24D8FF59005FB8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		253BE32F24D8FF59005FB8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		253BE33124D8FF59005FB8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8JZPRGQ3W;
+				INFOPLIST_FILE = HOWPAY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulin.HOWPAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		253BE33224D8FF59005FB8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8JZPRGQ3W;
+				INFOPLIST_FILE = HOWPAY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulin.HOWPAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253BE31424D8FF56005FB8DE /* Build configuration list for PBXProject "HOWPAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253BE32E24D8FF59005FB8DE /* Debug */,
+				253BE32F24D8FF59005FB8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253BE33024D8FF59005FB8DE /* Build configuration list for PBXNativeTarget "HOWPAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253BE33124D8FF59005FB8DE /* Debug */,
+				253BE33224D8FF59005FB8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		253BE32524D8FF56005FB8DE /* HOWPAY.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				253BE32624D8FF56005FB8DE /* HOWPAY.xcdatamodel */,
+			);
+			currentVersion = 253BE32624D8FF56005FB8DE /* HOWPAY.xcdatamodel */;
+			path = HOWPAY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 253BE31124D8FF56005FB8DE /* Project object */;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gkp-U5-5yz">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fNB-5E-aWw">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gkp-U5-5yz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qt8-wU-bHo">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="guQ-bR-LxU" kind="relationship" relationship="viewControllers" id="AjW-YQ-WDj"/>
+                        <segue destination="TC2-8n-sya" kind="relationship" relationship="viewControllers" id="E2j-eE-FSB"/>
+                        <segue destination="uU6-DL-uv8" kind="relationship" relationship="viewControllers" id="7zt-nx-PgQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhY-iS-jlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-429" y="101"/>
+        </scene>
+        <!--paystore-->
+        <scene sceneID="jfE-97-fV4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="paystore" id="uU6-DL-uv8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="搭配商家" image="house" catalog="system" id="J5s-AS-Qgc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akI-WC-D7y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="138.58695652173915"/>
+        </scene>
+        <!--howToPay-->
+        <scene sceneID="cGi-qE-4E4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="howToPay" id="TC2-8n-sya" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="幫我搭配" image="creditcard" catalog="system" id="mll-tH-LTw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaO-3a-YDp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1045" y="863"/>
+        </scene>
+        <!--howToUse-->
+        <scene sceneID="TJz-Dh-0XC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="howToUse" id="guQ-bR-LxU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wxs-DW-vCv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLY-Ja-Eg2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="-345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="creditcard" catalog="system" width="128" height="91"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+    </resources>
+</document>
