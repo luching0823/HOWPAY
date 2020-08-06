@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1011694501BA5AC1620FAF9A /* Pods_HOWPAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD651157AC769CCBBF81EF7 /* Pods_HOWPAY.framework */; };
 		253BE31D24D8FF56005FB8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE31C24D8FF56005FB8DE /* AppDelegate.swift */; };
 		253BE31F24D8FF56005FB8DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE31E24D8FF56005FB8DE /* SceneDelegate.swift */; };
 		253BE32124D8FF56005FB8DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253BE32024D8FF56005FB8DE /* ViewController.swift */; };
@@ -44,6 +45,9 @@
 		2584B3D024DA82B80027AB66 /* payStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payStoreViewController.swift; sourceTree = "<group>"; };
 		2584B3D224DA8DB10027AB66 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		2584B3D524DA94CB0027AB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HOWPAY/Base.lproj/howToUse.storyboard; sourceTree = "<group>"; };
+		43D66ED0BE15B4807A67B73C /* Pods-HOWPAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOWPAY.debug.xcconfig"; path = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD031189588AEDAD08E7041 /* Pods-HOWPAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOWPAY.release.xcconfig"; path = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY.release.xcconfig"; sourceTree = "<group>"; };
+		7CD651157AC769CCBBF81EF7 /* Pods_HOWPAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOWPAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1011694501BA5AC1620FAF9A /* Pods_HOWPAY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +65,10 @@
 		253BE31024D8FF56005FB8DE = {
 			isa = PBXGroup;
 			children = (
-				2584B3D424DA94CB0027AB66 /* howToUse.storyboard */,
-				253BE33624D90485005FB8DE /* howToPay.storyboard */,
-				253BE33324D9045A005FB8DE /* paystore.storyboard */,
 				253BE31B24D8FF56005FB8DE /* HOWPAY */,
 				253BE31A24D8FF56005FB8DE /* Products */,
+				B2768405778A5E7BF1FE7203 /* Pods */,
+				A2343B788B5B0971BDC23BD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +83,8 @@
 		253BE31B24D8FF56005FB8DE /* HOWPAY */ = {
 			isa = PBXGroup;
 			children = (
+				2584B3D824DAA7380027AB66 /* Controller */,
+				2584B3D724DAA7190027AB66 /* Storyboard */,
 				253BE31C24D8FF56005FB8DE /* AppDelegate.swift */,
 				253BE31E24D8FF56005FB8DE /* SceneDelegate.swift */,
 				253BE32024D8FF56005FB8DE /* ViewController.swift */,
@@ -87,14 +93,49 @@
 				253BE32A24D8FF59005FB8DE /* LaunchScreen.storyboard */,
 				253BE32D24D8FF59005FB8DE /* Info.plist */,
 				253BE32524D8FF56005FB8DE /* HOWPAY.xcdatamodeld */,
-				253BE33824D925FA005FB8DE /* howToPayViewController.swift */,
 				2584B3C724DA48EE0027AB66 /* information.swift */,
 				2584B3C924DA4CBA0027AB66 /* InformationTableViewCell.swift */,
+			);
+			path = HOWPAY;
+			sourceTree = "<group>";
+		};
+		2584B3D724DAA7190027AB66 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2584B3D424DA94CB0027AB66 /* howToUse.storyboard */,
+				253BE33624D90485005FB8DE /* howToPay.storyboard */,
+				253BE33324D9045A005FB8DE /* paystore.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2584B3D824DAA7380027AB66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				253BE33824D925FA005FB8DE /* howToPayViewController.swift */,
 				2584B3CB24DA5CAC0027AB66 /* howToPayTableViewController.swift */,
 				2584B3D024DA82B80027AB66 /* payStoreViewController.swift */,
 				2584B3D224DA8DB10027AB66 /* mapViewController.swift */,
 			);
-			path = HOWPAY;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2343B788B5B0971BDC23BD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD651157AC769CCBBF81EF7 /* Pods_HOWPAY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2768405778A5E7BF1FE7203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D66ED0BE15B4807A67B73C /* Pods-HOWPAY.debug.xcconfig */,
+				5AD031189588AEDAD08E7041 /* Pods-HOWPAY.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 253BE33024D8FF59005FB8DE /* Build configuration list for PBXNativeTarget "HOWPAY" */;
 			buildPhases = (
+				267041A9B15039CBDD3B2DB0 /* [CP] Check Pods Manifest.lock */,
 				253BE31524D8FF56005FB8DE /* Sources */,
 				253BE31624D8FF56005FB8DE /* Frameworks */,
 				253BE31724D8FF56005FB8DE /* Resources */,
+				957C3CBE6998D3AEB6CC1311 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +208,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267041A9B15039CBDD3B2DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOWPAY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957C3CBE6998D3AEB6CC1311 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOWPAY/Pods-HOWPAY-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HOWPAY/Pods-HOWPAY-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HOWPAY/Pods-HOWPAY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		253BE31524D8FF56005FB8DE /* Sources */ = {
@@ -338,6 +423,7 @@
 		};
 		253BE33124D8FF59005FB8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D66ED0BE15B4807A67B73C /* Pods-HOWPAY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -357,6 +443,7 @@
 		};
 		253BE33224D8FF59005FB8DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD031189588AEDAD08E7041 /* Pods-HOWPAY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
