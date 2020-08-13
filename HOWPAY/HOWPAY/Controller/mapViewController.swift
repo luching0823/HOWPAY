@@ -18,6 +18,8 @@ class mapViewController: UIViewController, CLLocationManagerDelegate {
     
     var myLocationManager: CLLocationManager!
     
+    let defaultCenter = CLLocationCoordinate2D(latitude: 25.034012, longitude: 121.564461)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //建立一個CLLocationManager
@@ -32,10 +34,12 @@ class mapViewController: UIViewController, CLLocationManagerDelegate {
         // Do any additional setup after loading the view.
         // Creates a marker in the center of the map.
         
+        
     }
-    let defaultCenter = CLLocationCoordinate2D(latitude: 25.034012, longitude: 121.564461)
+    
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
         //印出目前位置座標
         let currentLocation: CLLocation = locations[0] as CLLocation
         print("Current Location: \(currentLocation.coordinate.latitude), \(currentLocation.coordinate.longitude)")

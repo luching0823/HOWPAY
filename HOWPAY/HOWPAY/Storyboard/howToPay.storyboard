@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="52" id="rnV-cq-Iu6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.2876732482705584" green="0.16479161005820431" blue="0.034707145690411383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FZP-Qv-ZNu">
@@ -35,7 +35,7 @@
                                             <constraint firstAttribute="width" constant="131" id="spx-JP-TJd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="請選擇信用卡" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7dj-O7-3Na">
@@ -44,7 +44,7 @@
                                             <constraint firstAttribute="width" constant="332" id="NKO-cJ-SAf"/>
                                             <constraint firstAttribute="height" constant="34" id="ePX-E6-7Xh"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="0.54053403253424659" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -61,7 +61,7 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="9PF-wz-cHY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="請選擇消費星期" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rUv-pD-hRG">
@@ -70,7 +70,7 @@
                                             <constraint firstAttribute="width" constant="332" id="88l-GZ-HUP"/>
                                             <constraint firstAttribute="height" constant="34" id="C4A-sp-zow"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -86,7 +86,7 @@
                                             <constraint firstAttribute="height" constant="20.333333333333332" id="FJU-yc-3cf"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="請選擇消費類型" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aEi-ID-SSq">
@@ -95,7 +95,7 @@
                                             <constraint firstAttribute="height" constant="34" id="DD8-O8-Hec"/>
                                             <constraint firstAttribute="width" constant="332" id="xyc-uN-rw9"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -108,13 +108,15 @@
                                     <constraint firstAttribute="height" constant="36" id="u1v-NF-Pju"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="確定"/>
+                                <state key="normal" title="確定">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="OZP-Db-tEA" kind="show" id="aw2-pc-E2p"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.97811954960000003" blue="0.89592348190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="KSi-F3-7Dl" firstAttribute="top" secondItem="AgA-mI-gRc" secondAttribute="top" constant="61" id="2T0-Ng-J3U"/>
                             <constraint firstItem="hTO-ti-qDG" firstAttribute="top" secondItem="6I1-gA-q8c" secondAttribute="bottom" constant="71.670000000000002" id="3uV-ue-5MC"/>
@@ -178,13 +180,14 @@
                                                         <constraint firstAttribute="height" constant="20.333333333333332" id="deS-f1-qfo"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="0.28767324830000002" green="0.16479161010000001" blue="0.034707145690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="優惠訊息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1H6-dk-dP9">
                                                     <rect key="frame" x="0.0" y="28.333333333333336" width="69.333333333333329" height="20.333333333333336"/>
+                                                    <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="1" green="0.97647058819999999" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -197,6 +200,7 @@
                                         <constraint firstAttribute="bottom" secondItem="Sds-cb-OTi" secondAttribute="bottom" constant="19.329999999999998" id="s2n-a8-YwD"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.97811954960000003" blue="0.89592348190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="informationLabel" destination="1H6-dk-dP9" id="pHq-Fb-iJN"/>
                                     <outlet property="storeLable" destination="27x-Ha-UBU" id="fCr-ho-kDp"/>
@@ -224,6 +228,15 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bwm-SI-UuD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.28767324830000002" green="0.16479161010000001" blue="0.034707145690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.28767324830000002" green="0.16479161010000001" blue="0.034707145690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.28767324830000002" green="0.16479161010000001" blue="0.034707145690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="ZBC-Jj-KK4" kind="relationship" relationship="rootViewController" id="k2H-zW-7Sn"/>

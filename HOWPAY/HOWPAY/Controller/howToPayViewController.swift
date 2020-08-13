@@ -21,9 +21,9 @@ class howToPayViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
 
     
     
-    var card = ["Line Pay卡", "大戶卡", "@GOGO卡"]
-    var week = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
-    var type = ["日常用品","百貨公司", "美妝保養"]
+    var card = ["Line Pay卡", "大戶卡", "@GOGO卡", "街口聯名卡", "Pi錢包聯名卡"]
+    var week = ["每日", "星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
+    var type = ["日常用品","百貨公司", "美妝保養", "餐廳美食", "飲料", "服飾包鞋", "3C產品", "電影院"]
 
     
     //有幾個區塊
@@ -72,7 +72,8 @@ class howToPayViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //pickerView
         
         cardPickerView = UIPickerView()
         weekPickerView = UIPickerView()
@@ -96,6 +97,8 @@ class howToPayViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(closeKeyboard))
         view.addGestureRecognizer(tap)
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -103,6 +106,8 @@ class howToPayViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.view.endEditing(true)
     }
     
+
+
 
     /*
     // MARK: - Navigation

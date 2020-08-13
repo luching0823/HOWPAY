@@ -15,10 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-7C-y6U">
-                                <rect key="frame" x="20" y="270" width="374" height="197.66666666666666"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLr-YN-RdF">
+                                <rect key="frame" x="20" y="242" width="374" height="252"/>
+                                <color key="backgroundColor" red="0.3803921569" green="0.2156862745" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="2fN-iF-XWP"/>
+                                    <constraint firstAttribute="width" constant="374" id="FWo-9m-IZJ"/>
+                                </constraints>
                                 <string key="text">功能一：幫我搭配
 使用者選擇消費情境後
 系統自動列出優惠消息
@@ -27,12 +30,27 @@
 使用者選擇想要使用的支付工具
 系統自動帶入
 附近有提供此支付工具的商家位置</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-App-83.5x83.5" translatesAutoresizingMaskIntoConstraints="NO" id="jt9-HZ-q3v">
+                                <rect key="frame" x="157" y="117" width="100" height="83.333333333333314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1BO-RS-iae"/>
+                                    <constraint firstAttribute="height" constant="83.333333333333314" id="L7x-AF-JNp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.97811954960000003" blue="0.89592348190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jt9-HZ-q3v" firstAttribute="leading" secondItem="Bfo-30-Mzs" secondAttribute="leading" constant="157" id="2M6-6s-3dh"/>
+                            <constraint firstItem="kLr-YN-RdF" firstAttribute="leading" secondItem="Bfo-30-Mzs" secondAttribute="leading" constant="20" id="Id1-7g-0Gl"/>
+                            <constraint firstItem="kLr-YN-RdF" firstAttribute="centerY" secondItem="5sq-UP-7ur" secondAttribute="centerY" id="Mqx-98-Qgx"/>
+                            <constraint firstItem="jt9-HZ-q3v" firstAttribute="top" secondItem="Bfo-30-Mzs" secondAttribute="top" constant="73" id="cyF-8l-aVu"/>
+                            <constraint firstItem="Bfo-30-Mzs" firstAttribute="trailing" secondItem="kLr-YN-RdF" secondAttribute="trailing" constant="20" id="hge-PZ-VhA"/>
+                            <constraint firstItem="Bfo-30-Mzs" firstAttribute="trailing" secondItem="jt9-HZ-q3v" secondAttribute="trailing" constant="157" id="o2I-8j-tcz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bfo-30-Mzs"/>
                     </view>
                     <navigationItem key="navigationItem" title="功能介紹" id="vCf-gg-EMn"/>
@@ -49,6 +67,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FR3-Rn-p5p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.28767324830000002" green="0.16479161010000001" blue="0.034707145690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="13f-Fn-YO6" kind="relationship" relationship="rootViewController" id="tmz-aJ-u9g"/>
@@ -60,6 +82,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Icon-App-83.5x83.5" width="83.5" height="83.5"/>
         <image name="book" catalog="system" width="128" height="101"/>
     </resources>
 </document>

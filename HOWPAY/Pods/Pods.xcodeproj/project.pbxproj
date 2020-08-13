@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -13,9 +13,10 @@
 			buildPhases = (
 			);
 			dependencies = (
-				CCDE3DF5458240F3259D88C46803DEC8 /* PBXTargetDependency */,
+				B348358676A46A7D2FC58815D2B1D3B8 /* PBXTargetDependency */,
 			);
 			name = GooglePlaces;
+			productName = GooglePlaces;
 		};
 		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
 			isa = PBXAggregateTarget;
@@ -25,31 +26,32 @@
 			dependencies = (
 			);
 			name = GoogleMaps;
+			productName = GoogleMaps;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3337708D17B6FB7635E5F56D8AA96976 /* Pods-HOWPAY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A0A198AFBE3A4A949D363C4BF2149 /* Pods-HOWPAY-dummy.m */; };
-		7AEA4608A5AFE5030688886EEECA558F /* Pods-HOWPAY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C28C5929AFD9167A2353C0F9DB4915 /* Pods-HOWPAY-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1DC176A2C4075173C25E2417F66ECF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3BCFF86C517D73C9D0F7B6E64731C805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E7AA01DA697E8844FE1C0FBBEAEB6A /* Foundation.framework */; };
+		5A55A1555741DB24FCF9F4174B722044 /* Pods-HOWPAY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 678CA53823A1A26B916D5C897200B080 /* Pods-HOWPAY-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6721819E5CAE69AB126AC87F274E6390 /* Pods-HOWPAY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A988456E5B35DC6F8AED02B3F65F55C2 /* Pods-HOWPAY-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		108F9196136F85067DA2F6284C12312A /* PBXContainerItemProxy */ = {
+		6290A6DF964FF1483B8A67E13F5D40CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
 			remoteInfo = GoogleMaps;
 		};
-		59371AE100A474E4665D3D3C44EA3E5A /* PBXContainerItemProxy */ = {
+		D891F54EA6379CAEBA66EF189F5BEA01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
 			remoteInfo = GooglePlaces;
 		};
-		DE802A24CAA91652CC836C3BE55C0E10 /* PBXContainerItemProxy */ = {
+		F26CE8238055E3090883939394ACAFAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -59,108 +61,199 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		189A0A198AFBE3A4A949D363C4BF2149 /* Pods-HOWPAY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HOWPAY-dummy.m"; sourceTree = "<group>"; };
-		23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A5087DBFBEBC542F857FF6C09CC89E8 /* Pods-HOWPAY-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HOWPAY-resources.sh"; sourceTree = "<group>"; };
-		4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		6182CDBEF93BD979823A9B186DEA0057 /* Pods-HOWPAY-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HOWPAY-acknowledgements.markdown"; sourceTree = "<group>"; };
-		627855A7EF5AD39EC2D174F773FAA107 /* Pods-HOWPAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HOWPAY.release.xcconfig"; sourceTree = "<group>"; };
-		726E7F00E46F98B0E7FE52FF8C6B6730 /* Pods-HOWPAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HOWPAY.debug.xcconfig"; sourceTree = "<group>"; };
-		8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		8A07580F7E53AFAA45FCEC532BF6636D /* Pods-HOWPAY-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HOWPAY-Info.plist"; sourceTree = "<group>"; };
-		8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
-		9CAC4E0439A165355811BA4750E55DBA /* Pods-HOWPAY.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HOWPAY.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
-		A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
-		C5C28C5929AFD9167A2353C0F9DB4915 /* Pods-HOWPAY-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HOWPAY-umbrella.h"; sourceTree = "<group>"; };
-		DE7E5DF824BED9ADF7CBD4B268CD0CA9 /* Pods_HOWPAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HOWPAY.framework; path = "Pods-HOWPAY.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
-		FDB2E87CBE49E583F11C796D6C9B948B /* Pods-HOWPAY-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HOWPAY-acknowledgements.plist"; sourceTree = "<group>"; };
+		03A3CF316AC981A167EC23CD2AAA4574 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D54350EE4CDC3A364B8ACC0597E550A /* Pods-HOWPAY-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HOWPAY-resources.sh"; sourceTree = "<group>"; };
+		12FE7C44EE72CC92C04638288A5E38D3 /* Pods-HOWPAY.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HOWPAY.modulemap"; sourceTree = "<group>"; };
+		1D281FD381C1BA8D1C22A1DF5C5D70AA /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		28C3439B4A917CB6533B209259A2BAA5 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		29C2D6E2D5F06228C6F7944C2019D29A /* Pods-HOWPAY-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HOWPAY-frameworks.sh"; sourceTree = "<group>"; };
+		2E1C45D6371E17BC24DB0E13A57A7FA6 /* Pods-HOWPAY-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HOWPAY-Info.plist"; sourceTree = "<group>"; };
+		3C13E8112B865208782386A502560ED8 /* Pods-HOWPAY-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HOWPAY-acknowledgements.plist"; sourceTree = "<group>"; };
+		40EFD09A95AEBED0225F06271879519B /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		4B3518059F37BB5890CE725D5E50B747 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		5E0FA7CA5E5CC64FC68CDC1385DA4EF8 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		678CA53823A1A26B916D5C897200B080 /* Pods-HOWPAY-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HOWPAY-umbrella.h"; sourceTree = "<group>"; };
+		8C4F91930D66C1F5C00F5FD4D470BB7A /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		9BD81F11F70EDB1E07A5D5BF3D3FEBFB /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		9C3943B946368F903DFDF79BAA41153D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A559418C118FC267C9A897BBEB251632 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A988456E5B35DC6F8AED02B3F65F55C2 /* Pods-HOWPAY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HOWPAY-dummy.m"; sourceTree = "<group>"; };
+		B0E7AA01DA697E8844FE1C0FBBEAEB6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5F002CFE0C2EA6BE2AB3B68BFE8B89E /* Pods-HOWPAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HOWPAY.release.xcconfig"; sourceTree = "<group>"; };
+		DE7E5DF824BED9ADF7CBD4B268CD0CA9 /* Pods_HOWPAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOWPAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E656B77F929C44751FDD2A3B421DE452 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E900903D2F14D53A8954E0DEFF0AF577 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E9B9A69CB2FB4F8F9C93AEE41F47A32E /* Pods-HOWPAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HOWPAY.debug.xcconfig"; sourceTree = "<group>"; };
+		F496A47C7536888FEA442E8E5B725EC5 /* Pods-HOWPAY-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HOWPAY-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0382BEE6A8F3C40CFD85C615B6DFF0DB /* Frameworks */ = {
+		F6968345C352AA0C316EEC087B2F319B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1DC176A2C4075173C25E2417F66ECF9 /* Foundation.framework in Frameworks */,
+				3BCFF86C517D73C9D0F7B6E64731C805 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */ = {
+		0D551986423A7C3056538D4439313794 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */,
+				9C3943B946368F903DFDF79BAA41153D /* GoogleMaps.framework */,
+				4B3518059F37BB5890CE725D5E50B747 /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0883B537F1FDF67277437486C4066E63 /* GoogleMaps */ = {
+		20E4A9A27944A01F54861881CD7104C2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E86A34344FF943F078B6064D778D230A /* Base */,
-				A38D68C78C032F2CEEEEED36818D37F0 /* Maps */,
-				6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */,
+				822D49504A2303CF2DADBB68D08BFC32 /* Pods-HOWPAY */,
 			);
-			name = GoogleMaps;
-			path = GoogleMaps;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		11F3C630B5BE8F863BEA19A7DBA16A57 /* Pods-HOWPAY */ = {
+		229A68E0C9B55ECC3FB7B7A404598466 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				9CAC4E0439A165355811BA4750E55DBA /* Pods-HOWPAY.modulemap */,
-				6182CDBEF93BD979823A9B186DEA0057 /* Pods-HOWPAY-acknowledgements.markdown */,
-				FDB2E87CBE49E583F11C796D6C9B948B /* Pods-HOWPAY-acknowledgements.plist */,
-				189A0A198AFBE3A4A949D363C4BF2149 /* Pods-HOWPAY-dummy.m */,
-				8A07580F7E53AFAA45FCEC532BF6636D /* Pods-HOWPAY-Info.plist */,
-				3A5087DBFBEBC542F857FF6C09CC89E8 /* Pods-HOWPAY-resources.sh */,
-				C5C28C5929AFD9167A2353C0F9DB4915 /* Pods-HOWPAY-umbrella.h */,
-				726E7F00E46F98B0E7FE52FF8C6B6730 /* Pods-HOWPAY.debug.xcconfig */,
-				627855A7EF5AD39EC2D174F773FAA107 /* Pods-HOWPAY.release.xcconfig */,
+				423F425C03BEB88B9BA7CF338E75EB2C /* Frameworks */,
+				98BCD7C8C16618055DEBE2FDE22A106F /* Resources */,
+				C10E993AAF03455AA111B0855854F954 /* Support Files */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		38135503FAFB8E35519F7D3A36890A0A /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0D551986423A7C3056538D4439313794 /* Frameworks */,
+				6D3F2BAF13ADCEE2271902021EA0CF0A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		423F425C03BEB88B9BA7CF338E75EB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4F91930D66C1F5C00F5FD4D470BB7A /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650DA5FB1E34577DBFE4AC6FA986FDDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB30A0EDEE3443BD1496DE39AC72C84D /* GoogleMaps */,
+				229A68E0C9B55ECC3FB7B7A404598466 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D3F2BAF13ADCEE2271902021EA0CF0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E900903D2F14D53A8954E0DEFF0AF577 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		822D49504A2303CF2DADBB68D08BFC32 /* Pods-HOWPAY */ = {
+			isa = PBXGroup;
+			children = (
+				12FE7C44EE72CC92C04638288A5E38D3 /* Pods-HOWPAY.modulemap */,
+				F496A47C7536888FEA442E8E5B725EC5 /* Pods-HOWPAY-acknowledgements.markdown */,
+				3C13E8112B865208782386A502560ED8 /* Pods-HOWPAY-acknowledgements.plist */,
+				A988456E5B35DC6F8AED02B3F65F55C2 /* Pods-HOWPAY-dummy.m */,
+				29C2D6E2D5F06228C6F7944C2019D29A /* Pods-HOWPAY-frameworks.sh */,
+				2E1C45D6371E17BC24DB0E13A57A7FA6 /* Pods-HOWPAY-Info.plist */,
+				0D54350EE4CDC3A364B8ACC0597E550A /* Pods-HOWPAY-resources.sh */,
+				678CA53823A1A26B916D5C897200B080 /* Pods-HOWPAY-umbrella.h */,
+				E9B9A69CB2FB4F8F9C93AEE41F47A32E /* Pods-HOWPAY.debug.xcconfig */,
+				D5F002CFE0C2EA6BE2AB3B68BFE8B89E /* Pods-HOWPAY.release.xcconfig */,
 			);
 			name = "Pods-HOWPAY";
 			path = "Target Support Files/Pods-HOWPAY";
 			sourceTree = "<group>";
 		};
-		3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */ = {
+		939DBBAAB81F05DBBF45FE5A7551F646 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */,
-				A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */,
+				D48D4C5C95F036F6EA83B6878D04C884 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		98BCD7C8C16618055DEBE2FDE22A106F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A559418C118FC267C9A897BBEB251632 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACF95BCEE70B66CF2391238C0DCC32BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40EFD09A95AEBED0225F06271879519B /* GoogleMaps.debug.xcconfig */,
+				1D281FD381C1BA8D1C22A1DF5C5D70AA /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		C10E993AAF03455AA111B0855854F954 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0FA7CA5E5CC64FC68CDC1385DA4EF8 /* GooglePlaces.debug.xcconfig */,
+				28C3439B4A917CB6533B209259A2BAA5 /* GooglePlaces.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GooglePlaces";
 			sourceTree = "<group>";
 		};
-		3FE4CC4B7B0241873FFF96886667937D /* Frameworks */ = {
+		CB30A0EDEE3443BD1496DE39AC72C84D /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */,
+				939DBBAAB81F05DBBF45FE5A7551F646 /* Base */,
+				38135503FAFB8E35519F7D3A36890A0A /* Maps */,
+				ACF95BCEE70B66CF2391238C0DCC32BE /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		CE977EB726C9F96C37B42D71E9B97392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A3CF316AC981A167EC23CD2AAA4574 /* Realm.framework */,
+				F36294DB99C7C97D32419753E4B7580B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				3FE4CC4B7B0241873FFF96886667937D /* Frameworks */,
-				7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */,
-				3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CE977EB726C9F96C37B42D71E9B97392 /* Frameworks */,
+				650DA5FB1E34577DBFE4AC6FA986FDDA /* Pods */,
+				ECEFFB48F79BB60B4646726EE0043FFF /* Products */,
+				20E4A9A27944A01F54861881CD7104C2 /* Targets Support Files */,
 			);
-			name = GooglePlaces;
-			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		45DA96B58399AF6532024F79C4D855DA /* Products */ = {
+		D48D4C5C95F036F6EA83B6878D04C884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD81F11F70EDB1E07A5D5BF3D3FEBFB /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECEFFB48F79BB60B4646726EE0043FFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				DE7E5DF824BED9ADF7CBD4B268CD0CA9 /* Pods_HOWPAY.framework */,
@@ -168,110 +261,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */ = {
+		F36294DB99C7C97D32419753E4B7580B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */,
-				9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleMaps";
-			sourceTree = "<group>";
-		};
-		7B6FB68E11CCF58DCABD8960B2E43D2B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				11F3C630B5BE8F863BEA19A7DBA16A57 /* Pods-HOWPAY */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A38D68C78C032F2CEEEEED36818D37F0 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				E435AD63DBCE250679648002DC9F8442 /* Frameworks */,
-				FAF4CAFF608973234241B6D824C4FC0F /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				B0E7AA01DA697E8844FE1C0FBBEAEB6A /* Foundation.framework */,
+				E656B77F929C44751FDD2A3B421DE452 /* Security.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CF1408CF629C7361332E53B88F7BD30C = {
-			isa = PBXGroup;
-			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E858A99A3564099E88E4CF05F26A517D /* Pods */,
-				45DA96B58399AF6532024F79C4D855DA /* Products */,
-				7B6FB68E11CCF58DCABD8960B2E43D2B /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E435AD63DBCE250679648002DC9F8442 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */,
-				23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E858A99A3564099E88E4CF05F26A517D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0883B537F1FDF67277437486C4066E63 /* GoogleMaps */,
-				446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E86A34344FF943F078B6064D778D230A /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		FAF4CAFF608973234241B6D824C4FC0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36B2501732445E4FC51D3B9E3DD57D46 /* Headers */ = {
+		9552E6BE772DED543C1AB4A08625756F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AEA4608A5AFE5030688886EEECA558F /* Pods-HOWPAY-umbrella.h in Headers */,
+				5A55A1555741DB24FCF9F4174B722044 /* Pods-HOWPAY-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,18 +286,18 @@
 /* Begin PBXNativeTarget section */
 		FC6640E0B6AEE3B8D31AD35F57C38D05 /* Pods-HOWPAY */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 998733D63140B2F67653F902A2DBB7D8 /* Build configuration list for PBXNativeTarget "Pods-HOWPAY" */;
+			buildConfigurationList = DAD95F5106ABD34B81ED95EF8F217CA6 /* Build configuration list for PBXNativeTarget "Pods-HOWPAY" */;
 			buildPhases = (
-				36B2501732445E4FC51D3B9E3DD57D46 /* Headers */,
-				0EBD683A3223EB5920646453A43FD9D0 /* Sources */,
-				0382BEE6A8F3C40CFD85C615B6DFF0DB /* Frameworks */,
-				1E8DCEFE46C6AAFB9C8561233943797C /* Resources */,
+				9552E6BE772DED543C1AB4A08625756F /* Headers */,
+				ED5C19241B99D43E73564833E9D277B3 /* Sources */,
+				F6968345C352AA0C316EEC087B2F319B /* Frameworks */,
+				84AC16D8E0C1579148CFB13C7C0B6DF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0653F3C953FCEC0432C261617C954846 /* PBXTargetDependency */,
-				A417A087160A43CA0FF212799C27EE00 /* PBXTargetDependency */,
+				5FDBDC40E9A8E37E4FEA7008CA71373C /* PBXTargetDependency */,
+				20323D224847069871EB132A1E95CCAD /* PBXTargetDependency */,
 			);
 			name = "Pods-HOWPAY";
 			productName = "Pods-HOWPAY";
@@ -308,7 +314,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -316,7 +322,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 45DA96B58399AF6532024F79C4D855DA /* Products */;
+			productRefGroup = ECEFFB48F79BB60B4646726EE0043FFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -328,7 +334,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E8DCEFE46C6AAFB9C8561233943797C /* Resources */ = {
+		84AC16D8E0C1579148CFB13C7C0B6DF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,38 +344,77 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EBD683A3223EB5920646453A43FD9D0 /* Sources */ = {
+		ED5C19241B99D43E73564833E9D277B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3337708D17B6FB7635E5F56D8AA96976 /* Pods-HOWPAY-dummy.m in Sources */,
+				6721819E5CAE69AB126AC87F274E6390 /* Pods-HOWPAY-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0653F3C953FCEC0432C261617C954846 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = DE802A24CAA91652CC836C3BE55C0E10 /* PBXContainerItemProxy */;
-		};
-		A417A087160A43CA0FF212799C27EE00 /* PBXTargetDependency */ = {
+		20323D224847069871EB132A1E95CCAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 59371AE100A474E4665D3D3C44EA3E5A /* PBXContainerItemProxy */;
+			targetProxy = D891F54EA6379CAEBA66EF189F5BEA01 /* PBXContainerItemProxy */;
 		};
-		CCDE3DF5458240F3259D88C46803DEC8 /* PBXTargetDependency */ = {
+		5FDBDC40E9A8E37E4FEA7008CA71373C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 108F9196136F85067DA2F6284C12312A /* PBXContainerItemProxy */;
+			targetProxy = F26CE8238055E3090883939394ACAFAD /* PBXContainerItemProxy */;
+		};
+		B348358676A46A7D2FC58815D2B1D3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 6290A6DF964FF1483B8A67E13F5D40CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08A5C05ED144D7BC5B01F6460534439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F002CFE0C2EA6BE2AB3B68BFE8B89E /* Pods-HOWPAY.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,65 +475,9 @@
 			};
 			name = Release;
 		};
-		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
+		621A8A750735E455FD80ACAC664AEC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BBBC99EE68B23BE920D46F54A17A44DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 627855A7EF5AD39EC2D174F773FAA107 /* Pods-HOWPAY.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HOWPAY/Pods-HOWPAY.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D1CA732D75CE979BB610BDFEB7717A5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726E7F00E46F98B0E7FE52FF8C6B6730 /* Pods-HOWPAY.debug.xcconfig */;
+			baseConfigurationReference = E9B9A69CB2FB4F8F9C93AEE41F47A32E /* Pods-HOWPAY.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -524,9 +513,26 @@
 			};
 			name = Debug;
 		};
+		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D281FD381C1BA8D1C22A1DF5C5D70AA /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		E1E452060D51DF935547186CE54B26CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
+			baseConfigurationReference = 40EFD09A95AEBED0225F06271879519B /* GoogleMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -606,7 +612,7 @@
 		};
 		F612EF94A7DB77BEC9A01721B62A809E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
+			baseConfigurationReference = 5E0FA7CA5E5CC64FC68CDC1385DA4EF8 /* GooglePlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -622,7 +628,7 @@
 		};
 		FE15983873284AD94B26A75BCDAE5E5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */;
+			baseConfigurationReference = 28C3439B4A917CB6533B209259A2BAA5 /* GooglePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -658,11 +664,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		998733D63140B2F67653F902A2DBB7D8 /* Build configuration list for PBXNativeTarget "Pods-HOWPAY" */ = {
+		DAD95F5106ABD34B81ED95EF8F217CA6 /* Build configuration list for PBXNativeTarget "Pods-HOWPAY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1CA732D75CE979BB610BDFEB7717A5D /* Debug */,
-				BBBC99EE68B23BE920D46F54A17A44DD /* Release */,
+				621A8A750735E455FD80ACAC664AEC06 /* Debug */,
+				08A5C05ED144D7BC5B01F6460534439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
